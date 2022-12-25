@@ -34,10 +34,12 @@ h1{
 {
     height:140px;
 }
-
+@media screen and (max-width:1201px)
+{
 .text-muted
 {
-
+margin-left:20px;
+}
 }
 .gallery
 {
