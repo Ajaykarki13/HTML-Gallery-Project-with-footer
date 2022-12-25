@@ -17,22 +17,22 @@
 
 <body>
 
-    <nav class="navbar d-flex fixed-top bg-light navbar-expand{-sm|-md|-lg|-xl|-xxl} d-flex p-2 ">
+    <nav class="navbar d-flex fixed-top bg-dark navbar-expand{-sm|-md|-lg|-xl|-xxl} d-flex p-2 " id="nav">
         <a class="navbar-brand" href="#">
             <img class="d-inline-block" src="https://course.acciojob.com/acciojob_logo.svg" alt="acciojob" width="30"
                 height="54">
         </a>
 
         <div>
-            <button type="button" class="btn btn-outline-secondary">Home</button>
-            <button type="button" class="btn btn-outline-secondary">Login</button>
-            <button type="button" class="btn btn-warning">Gallery</button>
+            <a href="#nav" class="btn btn-outline-secondary">Home</a>
+            <a href="#footer" class="btn btn-outline-secondary">Contact Us</a>
+            <a href="#gallery" class="btn btn-warning">Gallery</a>
         </div>
     </nav>
 
     <main class="gallery">
         <h1>Flex Cards</h1>
-        <div class="card-group" id="grid">
+        <div class="card-group" id="grid" id="gallery">
             <div class="row g3 d-flex">
 
                 <div class="col">
@@ -279,12 +279,20 @@
 
     </main>
 
-    <footer>
-
-
-
-
-
+    <footer id="footer">
+   
+<div class="container footer">
+    <div class="bio">
+<img src="./images/dow.jpg" alt="myimage"> 
+<p class="name">Ajay karki</p>
+<p class="id">Ajaymum698@gmail.com</p>
+<p class="disc">My name is Ajay karki. I am learning web development with acciojob to be a software engineer. </p>
+    </div>
+    <div class="logo">
+        <img src="./images/_logo.webp">
+    </div>
+</div>
     </footer>
 
-    <fo>
+</body>
+</html>

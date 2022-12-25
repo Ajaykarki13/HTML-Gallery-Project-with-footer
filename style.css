@@ -1,3 +1,35 @@
 h1{
     margin-top: 100px;
 }
+.bio{
+    position: relative;
+   margin:50px;
+}
+.bio img{
+    border-radius: 100px;
+    border:none;
+    margin-bottom: 10px;;
+}
+.name
+{
+    position:relative;
+    font-weight: 800;
+    top:20px;
+}
+.id
+{
+    font-weight: 800;
+
+}
+.disc{
+    font-weight: 500;
+}
+.footer{
+    display:flex;
+    align-items:flex-end;
+    gap:200px;
+}
+ .cardgroup
+{
+    box-shadow:black;
+}
